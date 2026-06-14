@@ -2,7 +2,7 @@
 
 *{
     border: 2px solid red;
-    /* border:none */
+    border:none;
     font-family: "Bitcount Grid Double", sans-serif ;
     background-color: rgb(3, 74, 79);
     color: white;
