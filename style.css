@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+*{
+    border: 2px solid red;
+    /* border:none */
+    font-family: "Bitcount Grid Double", sans-serif ;
+    background-color: rgb(3, 74, 79);
+    color: white;
+}
+
+.header{
+    display: flex;
+    height:100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.choose{
+    font-size:1.2rem;
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    justify-content: center;
+    padding: 20px 450px;
+    gap:20px;
+}
+
+.choose .choose_text{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.choose .choices{
+    display: flex;
+    justify-content: space-between;
+}
+.choose .choices>*{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+.choose .choices>*:hover {
+    transform: scale(1.2);
+}
+
+.hands{
+    display: flex;
+    height:200px;
+    justify-content: space-evenly;
+    padding:10px 10px;
+}
+
+.hands >*{
+    width:400px;
+}
+
+.your_choice{
+    display: flex;
+    height: 50px;
+}
+
+.result{
+    display: flex;
+    height: 50px;
+}
+
+.play{
+    max-width: fit-content;
+    padding:5px 20px;
+    background-color: rgb(234, 234, 96);
+    color: black;
+    transition: transform 0.2s ease;
+    font-size: 1.2rem;
+}
+
+.play:hover{
+    transform: scale(1.1);
+    background-color: gold;
+}
+
+.player{
+    max-height: 200px;
+    justify-content: space-evenly;
+}
+
+.player img{
+    max-height: 170px;
+}
+
+.computer{
+    max-height: 200px;
+    justify-content: space-evenly;
+}
+
+.computer img{
+    max-height: 170px;
+}
+
+.hands{
+    padding: 0px 400px;
+}
